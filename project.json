@@ -4,7 +4,6 @@
   "description": "UiPath Test Cloud demo project for application testing of Veeva vault. This project has Windows dependencies.\r\n",
   "main": "Main.xaml",
   "dependencies": {
-    "CGI.Veeva.API.Library": "[1.0.34]",
     "UiPath.IntegrationService.Activities": "[1.26.0]",
     "UiPath.System.Activities": "[26.6.0]",
     "UiPath.Testing.Activities": "[25.10.2]",
