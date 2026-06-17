@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Owning Department*",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "jGJUDygpgUelibhmSd0xCg",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/jGJUDygpgUelibhmSd0xCg",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/cCHiuzgT3UeRbPEwwn_DvQ",
+  "Created": "2026-01-23T18:04:30.3222749Z",
+  "Updated": "2026-01-23T18:04:30.3222749Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lxil04Kn7Uq6WapuGhAc7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="fc3e553b-be50-4472-a490-76d09fd46e16" CvElementArea="1840, 225, 66, 31" CvTextArea="1866, 234, 30, 12" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1841, 227, 63, 28" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Save' parentid='pageBody' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Save' parentid='pageBody' tag='BUTTON' type='button' class='vv-vof-detail-header-button css-cxkizh-buttonCSS-buttonCSS-buttonCSS-buttonCSS' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Save' /&gt;" Guid="6a819867-b79f-4bb6-8e54-b27e49da3efd" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1af88bacda9fbc3255095a9c47b5f019.png" xmlns="">037N-8s4fyEq1mHdoSxq7pA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

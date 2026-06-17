@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g6CuV2yyFEiB6mUFNbDw8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="9dadde58-b2ed-4916-a2c1-57ba620a7574" CvTextArea="44, 473, 31, 12" CvTextArgument="Team" CvType="Text" DesignTimeRectangle="46, 473, 29, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Team' parentid='pageBody' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Team' parentid='pageBody' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Team' /&gt;" Guid="35213a86-89c3-4f7b-82dc-c4b52b41082b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000030 - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d78127d8410fb2d61598651f9a04be20.png" xmlns="">0VXnWwnNEykqCZ51EcWJGCw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

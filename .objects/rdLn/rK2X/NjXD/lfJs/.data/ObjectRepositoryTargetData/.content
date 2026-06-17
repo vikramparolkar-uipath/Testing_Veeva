@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OGxm8doz8kWfR3nXrTkAIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="402a0afa-144f-40f7-90f0-32b0ffc0bd62" CvElementArea="281, 150, 16, 17" CvTextArea="187, 151, 92, 16" CvTextArgument="Quality Events" CvType="ArrowButton" DesignTimeRectangle="176, 140, 132, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Quality Events' class='vv-navbar-link' parentid='global-header' tag='A' /&gt;" Guid="6a3d29e9-bbd8-423c-964e-070326f166ce" ScopeSelectorArgument="&lt;html app='msedge.exe' title='All Tasks - Home' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="397e8b70bbef94e0cac1d71baed31f94.png" xmlns="">04Ys_RgU1mUKnfQFrtnbBuw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

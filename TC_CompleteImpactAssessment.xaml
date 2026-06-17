@@ -1,0 +1,309 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_CompleteImpactAssessment" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="TC_CompleteImpactAssessment_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>Testing_Veeva_Windows.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TC_CompleteImpactAssessment" sap:VirtualizedContainerService.HintSize="1021,2683" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Change Control Screen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="570,2660" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="568,2466" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="534,61" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Impact Assessments'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="9fb5c3c4-5fea-41f1-9b2d-5fae497abe30" ContentHash="UrxbPNP5vEiCMT3hl5bL2w" CvTextArea="45, 932, 111, 14" CvTextArgument="Impact Assessments" CvType="Text" DesignTimeRectangle="46, 932, 110, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Impact Assessments' parentid='pageBody' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Impact Assessments' parentid='pageBody' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Impact Assessments' /&gt;" Guid="0f7da224-a9fa-4950-b2c3-0d22300d45c2" InformativeScreenshot="8407fb9a53462ea1794fdd3d102fa4d9.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/kuKbYYF67Eu4j6JuNV3-Mg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''In Impact Assessment''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="45f5f00f-875c-4f02-84a4-6e06fdff58e8" ContentHash="mBIAaAX47EOvjYp5EWR5wQ" CvTextArea="504, 495, 119, 12" CvTextArgument="In Impact Assessment" CvType="Text" DesignTimeRectangle="505, 495, 117, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='vv-text-cell' parentid='impact_assessments__c' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='vv-text-cell' parentid='impact_assessments__c' tag='DIV' type='' aaname='In Impact Assessment' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='In Impact Assessment' /&gt;" Guid="ce739e3a-fd29-4ea5-b96f-391450a2ce78" InformativeScreenshot="0c093a2c8c47db180512c112ae425800.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/ZlScyVTaMU-YPAMK82R7gw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset Position="TopLeft" X="-171" Y="6" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Assessment Summary''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,198" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="80d71516-a331-49f0-8f64-8732ce19cf76" ContentHash="FDpn9yZ__0mhjyE2BGKPVA" CvTextArea="44, 521, 123, 14" CvTextArgument="Assessment Summary" CvType="Text" DesignTimeRectangle="46, 521, 120, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Assessment Summary' parentid='pageBody' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assessment Summary' parentid='pageBody' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Assessment Summary' /&gt;" Guid="1dd34376-54a6-4b9a-814d-45ca937e2450" InformativeScreenshot="6c39e0b8a7949b75eb673a743697bd27.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/lMhObBJMY0-KDVCq9FQx-Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''path''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,198" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="80d71516-a331-49f0-8f64-8732ce19cf76" ContentHash="rm9tKx7cbEWkHRFTazO5yw" CvElementArea="1832, 228, 25, 25" CvType="Icon" DesignTimeRectangle="1836, 232, 18, 18" DesignTimeScaleFactor="1" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg&amp;gt;path' parentid='pageBody' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='pageBody' tag='path' class='' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d1ed00c5-d70f-40d4-b792-e6db1d7b8858" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADqSURBVEhLtdSBDYMgEIVhF3EQF2EQB3EQB3ERB6H5TZ45DlCh+hKD0vr1PKhD/CiDn3gr3fCyLHGapjjPc9z33X/cB4cQ4jiOBwrOsW1b8p1mWOi6rsc11ZbwJlgoo41wO/8YFgrASI9t1BblEWwfn+o4tzjz/sduYd9TKhOsBSy15xKuodpiaotHSRUWqpW2KNHjl1BShP9FSQbbza8WtKIkgf2W8jfzBKX5Uk5YldiF0qYHbEFJBuuFwrXtbQtKTlg3+9TacpcEBtG/h8o570HJCasyjTp6UJJVDESlHP4d25JsH7+Vz+Af46qDCDf+Co4AAAAASUVORK5CYII=" InformativeScreenshot="2760b94272557c383b668e24d4b3be5f.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/vrcV0k-PyU2QS7RuRRJZHg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''DIV''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,198" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="287ad7c9-e6f2-4b71-a3a1-670bb721dc9b" ContentHash="SulXYxuz3k6uQKDNKzHruA" CvElementArea="579, 393, 1282, 162" CvType="InputBox" DesignTimeRectangle="587, 396, 1269, 160" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl isleaf='1' parentid='assessment_summary__c' tabindex='0' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='assessment_summary__c' tabindex='0' tag='DIV' type='' class='richtext-lightweighteditview vv-richtextview vv-richtexteditwrapper' aaname='' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:tabindex='fuzzy' fuzzylevel:tabindex='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9e44d2ab-e8fd-497c-bcb5-ffd724d83f49" InformativeScreenshot="aef4af3b6c4920b13de2c8945e5d7c07.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/vkoAFCl2x0ypp6lkvh9bhg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Assessment Summary''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Text="This is a sample assessment summary" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="287ad7c9-e6f2-4b71-a3a1-670bb721dc9b" ContentHash="l1GETZ8lhEee3ZOPBr7-ag" CvElementArea="579, 393, 1282, 162" CvType="InputBox" DesignTimeRectangle="588, 436, 1267, 85" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='assessment_summary__c' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='fr-element fr-view' parentid='assessment_summary__c' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d04c70b4-601a-41f4-81fd-424a46642fe8" InformativeScreenshot="40adf07cc07e391eabe79417d30c6cdd.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/PHjd9YJpx0y7et_7a4hv5Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="287ad7c9-e6f2-4b71-a3a1-670bb721dc9b" CvTextArea="448, 402, 132, 14" CvTextArgument="Assessment Summary" CvType="Text" DesignTimeRectangle="450, 402, 129, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Assessment Summary' parentid='assessment_summary__c' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assessment Summary' parentid='assessment_summary__c' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Assessment Summary' /&gt;" Guid="ad2d0744-3708-4375-a69d-de602e0587c2" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,198" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="287ad7c9-e6f2-4b71-a3a1-670bb721dc9b" ContentHash="xwF7EAUJK0iSx_mqA5-rtg" CvElementArea="1839, 225, 66, 31" CvTextArea="1867, 234, 29, 12" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1841, 227, 63, 28" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Save' parentid='pageBody' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Save' parentid='pageBody' tag='BUTTON' type='button' class='vv-vof-detail-header-button css-cxkizh-buttonCSS-buttonCSS-buttonCSS-buttonCSS' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Save' /&gt;" Guid="a75d82db-a0e1-4692-b9d8-af51a96e4bbe" InformativeScreenshot="c4607f88fad10afee023c5db9fe0c528.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/iovqNTCqiEidrdOHwe9Nbw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Complete''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,198" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="287ad7c9-e6f2-4b71-a3a1-670bb721dc9b" ContentHash="cXqsiOKgzUO-zQNYQCAiUQ" CvElementArea="1845, 272, 72, 27" CvTextArea="1855, 280, 52, 14" CvTextArgument="Complete" CvType="Button" DesignTimeRectangle="1856, 275, 51, 24" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Complete' parentid='pageBody' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Complete' parentid='pageBody' tag='SPAN' type='' class='vv_button_text vv_ellipsis' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Complete' /&gt;" Guid="ede286dc-ff7d-4308-8714-896b3087ba77" InformativeScreenshot="051d413730483b82a1f77fc06ffd0115.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/9ZNGBYD7x0am5Ze62tpoDg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="8" DisplayName="Click ''Complete''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,198" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="f3d37764-793a-4487-ba45-b15c4880179d" CvElementArea="1151, 607, 73, 31" CvTextArea="1160, 616, 54, 14" CvTextArgument="Complete" CvType="Button" DesignTimeRectangle="1151, 607, 73, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-52' tag='A' /&gt;" Guid="8b0c2c87-7b98-4809-a5db-5f2b2fc3aef1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE0AAAAjCAYAAADR94eaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIrSURBVGhD7ZpBSgMxFIZ7CBdeyoUVPIRnEPEALsQbCO4E1xXcuJPu7EK60CIURNAutFBbikT+0Qevf5KZTEq1Mm/gozOTN0neN0lmkbam06kz6tHiG0Y1Ji0Dk5ZBUFr37sVt7d+4zd1Lt7HTaRzIG/nDA7sJSkNgIavtV9Yo2t/yQuI8aTDceGFCu1P4YEeetKZOyRjwwY48afyQ0TFpObAjk5YAOzJpCbAjk5YAO1pK2nXv1enj7GroxawCtPM0+nDbh12vTNg76bnR+8wdnd97ZXVhR9nSIGw8mRedwzV+cf0b4v6ltJggnQzAOY9CJIFkbh/eivuz+WdRhvpw9IfjaJwIqGpH35PnQnGcVwx2lCVNkpRRFgLJS2KIl84DnGOkSpwuQ706TiQiXtcn5yiXGN0Oj7RYHPc7BDvKllY2PeStytuUaySuxaAM9yQZnSjH6TJp//hisDDidbs6nmcG968KdpQtrWykcScBxIg0JCPPlknTcWXS+ECdIWl8yGivgh1lSQtJAejg4/PEHZz2S0daqjQ90vS1lhZb7FlaLC4FdpQlDcS+nnqtiq1pqdL02peypskzPD2lP6E4zisEO8qWBpBIbLjHvlZ1pOFc6tAvSEvjdqQPcj/29UydmoAdLSVtlbDcv4QdmbQE2NHaSlsn2JFJS4AdmbQE2JFJS4AdedJsY2WRpI0V28JTpG7h2WbxD3U2i0Wc/S2hxt8SjGpMWgYmLYMv2lVI1AmdOngAAAAASUVORK5CYII=" InformativeScreenshot="8bf65ee1e264a68ee6a1f647d9372f28.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000003 - Impact Assessments' /&gt;" SearchSteps="Selector, Image, CV, SemanticSelector" SemanticSelectorArgument="The button to complete the impact assessment" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="83f54a22-f15f-4e52-9f64-c74d493754cc" CvTextArea="1098, 616, 38, 12" CvTextArgument="Cancel" CvType="Text" DesignTimeRectangle="1098, 609, 38, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Cancel' class='vv_button_text' parentid='ui-id-47' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Cancel' /&gt;" Guid="db5b4744-6997-46b6-ad27-ef9c6bb5982b" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Impact Assessment Completed" sap:VirtualizedContainerService.HintSize="534,257" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Equality" OutputArgument="TextString" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True">
+              <uta:VerifyControlAttribute.ActivityToTest>
+                <ActivityAction>
+                  <uix:NGetText DisplayName="Get Text 'Status'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="500,111" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+                    <uix:NGetText.OutUiElement>
+                      <OutArgument x:TypeArguments="ui:UiElement">
+                        <VariableReference x:TypeArguments="ui:UiElement">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="ui:UiElement" Name="_autogenerated_OutUiElement" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.OutUiElement>
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="f5c84c78-4d54-4fae-b4de-a19b6b454c54" CvElementArea="339, 223, 186, 27" CvType="Button" DesignTimeRectangle="341, 225, 183, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='vv-vof-detail-header-status-label-container' parentid='pageBody' tag='SPAN' /&gt;" Guid="286fae34-b9ae-49ab-9abc-7f85c2680c02" InformativeScreenshot="b180b373e40aeb120222a3c2dbb19c7b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.PointOffset>
+                          <uix:PointOffset />
+                        </uix:TargetAnchorable.PointOffset>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                    <uix:NGetText.TextString>
+                      <OutArgument x:TypeArguments="x:String">
+                        <VariableReference x:TypeArguments="x:String">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="x:String" x:Name="__ReferenceID0" Name="_autogenerated_TextString" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.TextString>
+                    <uix:NGetText.WordsInfo>
+                      <OutArgument x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                        <VariableReference x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)">
+                          <VariableReference.Variable>
+                            <Variable x:TypeArguments="scg:IEnumerable(uuam:NWordInfo)" Name="_autogenerated_WordsInfo" />
+                          </VariableReference.Variable>
+                        </VariableReference>
+                      </OutArgument>
+                    </uix:NGetText.WordsInfo>
+                  </uix:NGetText>
+                </ActivityAction>
+              </uta:VerifyControlAttribute.ActivityToTest>
+              <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+                <ActivityFunc x:TypeArguments="x:Object">
+                  <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                    <uta:ArgumentsBridge.Input>
+                      <InArgument x:TypeArguments="x:Object">
+                        <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                      </InArgument>
+                    </uta:ArgumentsBridge.Input>
+                  </uta:ArgumentsBridge>
+                </ActivityFunc>
+              </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
+              <uta:VerifyControlAttribute.Expression>
+                <InArgument x:TypeArguments="x:String">["Impact Assessment Completed"]</InArgument>
+              </uta:VerifyControlAttribute.Expression>
+            </uta:VerifyControlAttribute>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="3" DisplayName="Click ''Change Controls''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="534,198" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="224fac70-ffa8-4f0d-b3c1-8f3902472120" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="35917672-890b-4edd-9776-005d352d125b" ContentHash="NUhgNAQ1oEqh8Lr4xvE7uA" CvTextArea="47, 186, 91, 14" CvTextArgument="Change Controls" CvType="Text" DesignTimeRectangle="48, 186, 90, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='pageBody' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='pageBody' tag='SPAN' type='' class='' aaname='Change Controls' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Change Controls' /&gt;" Guid="41069e7c-2533-4e75-9493-6c86a84f69de" InformativeScreenshot="3a5d3843cc4200a44333786e6ce311bf.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/2-HfQ9x9DUe-3dJ-wk5LtQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset Position="TopRight" X="48" Y="8" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:MinimizeWindow Window="{x:Null}" DisplayName="Minimize Window" sap:VirtualizedContainerService.HintSize="534,52" sap2010:WorkflowViewState.IdRef="MinimizeWindow_1" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, -8, 1936, 1048" BrowserType="Edge" ContentHash="G0zYzslewk2ng79acYz-SQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANtSURBVFhHvVfLThRBFO2oiQsVkaAivhAmfQsm+g0u3OpHGEOMIcTgI1GjwQe+VyRIhq7qAXQD/oA7F/oBujAaNYASogyiojhd3TCUudVdTVNTLcjrJJVU6p57q87pO9U9FnfgWSlPBKcgx6wr5yMTDLZZlmWJQWsjd0hzySWXPGovaSAXczBX1mg/uolTeD2X2GeulwjO4Kk1nc/WBAwKM24YwFHqI8KjcBKTEdyxH4qBJiEeNy5tDDQJzInzKTk+myclVR/3ClwYn3YO7ZYEz7E7MDE+gDwpeSP6j2zB+HRXtsZn5EvykGkDOcjFHKXeo/Birm9ePe7lU7ipDmgVu+29uguiH12wTymOz+Bq8pBpAzketa+pPFRf6iVzyQNyCoU/DGrjAyCMLjjwttCV3Ypx4WZ2cgpjM2GPGEeoHsZ+dzfskjkp6j0KtxZsLskMarnBBe6SZsXxHHJZ9Ke7IIs7cEXxjeoZFHCveOMkjC5QeCcGQxd+5exqTmE0+qUsGNHaqMjZ1ciNOr9cvWN36PvGMLvQiKc+rTicwQWTC7jmU7gY88LOj+Oy8xkUsN/iDU3A55N0ISryXkT3whTNVvkURpLFo/knQbNVyElT77N/qFfA7jS6QO0zisOZ3ZZ0Qc4dci6OG9RzChPFvkXUK5hdsD9MdmYqMC7ydZWcwhCuyxiD4Z+PDu+QsRT1HrVv6/ukQrpATS6QFsXhDrTiWtQjZ+PcHjihqw8oTIilqlfAm6rcBfj4PVe/HePiSaYC3xmcwmeh1tLUO+SOXn9RoAsBg/EyF1xoVZxij91WpOR8IqdcPYOJopPZFxf+H3hmF4Z+5OsqMS46M5txyPlzeeu9LFPPlqFeIdWFxDNX4Ab1PoNvy1avYHQh0fWINPWcwt2F1ZYBkWvcw40ukDbF4YbOR/VipeoVfAY3dBfwNkQXRLu1wai+B+7pdZaNP2kuULuFu/YxXX2Az95t2K/XWRE8zYXou2CYU3iV/KaMOKunXsHkAs6Tr+bo2U+K1Vav4DkLXdCHjDlwX89bNZhc0NV7ufoDet6qwqfkusmF8H2/huoV0IWAka96LwRSfXZt1St4mgvR/IHOWzOEvRC6ECj1tPGgzltTKBfCzp//G7ZuEPlsDX7nBQym1l29At54nEKXvr5uQBdW+r7/Cwe30sPdr6/KAAAAAElFTkSuQmCC" InformativeScreenshot="0859f508bf1c567165a15a32d4c6f4ea.jpg" Reference="tRzMVapDvUC6DW4vd3L6Bw/GeAIgh-o4U2XGnL42Jb5Tg" Selector="&lt;html app='msedge.exe' title='*Change Controls' /&gt;" Url="https://vvtechpartner-uipath-quality01.veevavault.com/ui/?tab-collection=qms__c#t/0TB00000003L001/VII/VII00000000A001?expanded=cc_details__c%2Ccc_impact_assess_req__c%2Cchangeplan__c%2Csystem_details__c%2Cquality_team__c&amp;_layout=gmp_change_control_detail_page_layout__c&amp;_page=responsible_people_tasks_page__c&amp;s=2" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

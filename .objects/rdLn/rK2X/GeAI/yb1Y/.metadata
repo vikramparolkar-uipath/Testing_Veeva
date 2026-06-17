@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "yb1Yyhd4fUiCH_IVTRnEcg",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/yb1Yyhd4fUiCH_IVTRnEcg",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/GeAIgh-o4U2XGnL42Jb5Tg",
+  "Created": "2026-03-03T04:02:58.1916189Z",
+  "Updated": "2026-03-03T04:02:58.1916189Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

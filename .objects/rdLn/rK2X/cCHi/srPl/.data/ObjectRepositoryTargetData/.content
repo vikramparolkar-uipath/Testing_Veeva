@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fqEstP2ysUG6D8SBMm8hnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2e059c1b-8694-4fb1-aab1-224c5967586e" CvElementArea="3603, 545, 164, 77" CvTextArea="3670, 567, 72, 30" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="3609, 549, 157, 70" DesignTimeScaleFactor="2.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Save' parentid='pageBody' tag='BUTTON' type='button' /&gt;" Guid="7fa7317c-9a81-4f97-8ce9-13d0ae078281" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="45683d79ae42f59d01cdce76220595ac.png" xmlns="">0qbkVaDfp70iCkhc767rNjg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

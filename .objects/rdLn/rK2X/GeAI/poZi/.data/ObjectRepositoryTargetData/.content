@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F_P4JoKjMEi001Imt1wdwg" Reference="tRzMVapDvUC6DW4vd3L6Bw/02PWxwBLCUGtqW2Pic0vhg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="84404625-663d-4b87-b68d-57efb0c9b86d" CvElementArea="1412, 429, 410, 29" CvType="InputBox" DesignTimeRectangle="1423, 497, 376, 14" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' tag='TEXTAREA' /&gt;" Guid="b1d4b29f-b97d-447f-9124-d2d240ff1061" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="783f5e43-d36e-4716-bcfc-afe4d03a3746" CvTextArea="1334, 495, 61, 14" CvTextArgument="Approver*" CvType="Text" DesignTimeRectangle="1336, 491, 68, 54" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='quality_team__c' tag='SPAN' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Approver*' /&gt;" Guid="143f66a3-e9ba-4a3a-80f9-0a3dda625a14" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="149af8ef776ebb5fe363995266e3db2b.png" xmlns="">01fmoW_R50ECQxcLZYoox3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

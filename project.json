@@ -1,0 +1,185 @@
+{
+  "name": "Testing_Veeva_Windows",
+  "projectId": "202a5021-5c8e-4ad9-8b36-c648873393c5",
+  "description": "UiPath Test Cloud demo project for application testing of Veeva vault. This project has Windows dependencies.\r\n",
+  "main": "Main.xaml",
+  "dependencies": {
+    "CGI.Veeva.API.Library": "[1.0.34]",
+    "UiPath.IntegrationService.Activities": "[1.22.0]",
+    "UiPath.System.Activities": "[25.10.5]",
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[25.10.28-beta.11306131]"
+  },
+  "webServices": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "namespace": "Testing_Veeva_Windows"
+    }
+  ],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.161.0",
+  "projectVersion": "1.0.226333471",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bcfa2150-40a6-409a-8b92-7b9783d05ab8",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_CreateChangeControl.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e1870acd-b7f3-451a-8238-44c89837b364",
+        "testCaseType": "TestCase",
+        "fileName": "TC_Veeva_Login_HealingAgent.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8ca8963a-7a28-4885-a341-9a7a3cd39531",
+        "testCaseType": "TestCase",
+        "fileName": "TC_CreateChangeControl_HealingAgent.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d9477c07-2a30-42a3-9e08-fc81212471b4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_AssignTeam.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c7b82e82-b775-42ea-81ce-61b5c5b868fe",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_CreateImpactAssessment.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d19c23ee-6911-4fe1-9ed1-1ebe274b1a16",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_MoveTo_InImpactAssessment.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "dd0609f2-02da-4d8c-b845-bcd7a1d00136",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_CompleteImpactAssessment.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b2f5c009-fe22-43d2-865d-f6631d27c70b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_CreateChangePlan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "78709fa7-fe7b-4dab-8e7c-2159ac93600b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_CreateChangeAction.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "33e47004-14e9-4999-b04a-de60d9033651",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_MoveTo_InChangePlanApproval.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "998cae6c-fdc4-4ca2-8d3e-4fa7cac3208d",
+        "testCaseType": "TestCase",
+        "fileName": "TC_Veeva_Login_Admin.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cfdc4fe1-db1d-40fd-9d1d-50115edbcb59",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_VerifyReadOnlyAccess_ChangeControlDetail.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "41f6af66-fa7a-49fd-9cf6-607a3b1f6abd",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_VerifyReadOnlyAccess_TeamAssignments.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "619ca431-654c-4b0c-82bb-48b16a9d2203",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_VerifyReadOnlyAccess_ChangePlan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "32f9e0eb-5820-4af8-ae7f-4ec079821c40",
+        "testCaseType": "TestCase",
+        "fileName": "TC_VerifyReadOnlyAccess_ChangeAction.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3b3e3d88-04be-4230-8c37-29876c7d1d37",
+        "testCaseType": "TestCase",
+        "fileName": "TC_VerifyReadOnlyAccess_CompletedImpactAssessment.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7eccccb5-f028-4f1e-8ebb-5edf881cd664",
+        "testCaseType": "TestCase",
+        "fileName": "TC_VerifyReadOnlyAccess_ImpactAssessment.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "566e0260-c6a8-4cef-aadb-c466349bdcf6",
+        "testCaseType": "TestCase",
+        "fileName": "TC_Veeva_Login_QMSUser.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f86f9f17-1b00-43e9-8cd4-091b61781b91",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

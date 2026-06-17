@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KvXkf3KapUSLgKBOk9rc5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="8defca97-d361-4d61-a056-762351e1304f" DesignTimeRectangle="643, 733, 39, 23" DesignTimeScaleFactor="1" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='require_effectiveness_check__v' tabindex='-1' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl name='require_effectiveness_check__v' tabindex='-1' tag='INPUT' type='radio' class='css-1em5ypd-radioInputCSS' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:tabindex='fuzzy' fuzzylevel:tabindex='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0049d17c-9405-41dd-b57a-9b7b9c6d2097" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="Selector" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="36916ec1a7ba81cda40d020f8c7a9a63.png" xmlns="">0S4GmBnheTEKNyZpsC5qwew</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Assessment Summary",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lMhObBJMY0-KDVCq9FQx-Q",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/lMhObBJMY0-KDVCq9FQx-Q",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/GeAIgh-o4U2XGnL42Jb5Tg",
+  "Created": "2026-03-03T03:55:27.8882539Z",
+  "Updated": "2026-03-03T03:55:27.8882539Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

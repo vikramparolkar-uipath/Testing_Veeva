@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Assessment Summary(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "PHjd9YJpx0y7et_7a4hv5Q",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/PHjd9YJpx0y7et_7a4hv5Q",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/GeAIgh-o4U2XGnL42Jb5Tg",
+  "Created": "2026-03-03T03:55:57.9403402Z",
+  "Updated": "2026-03-03T03:55:57.9403402Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

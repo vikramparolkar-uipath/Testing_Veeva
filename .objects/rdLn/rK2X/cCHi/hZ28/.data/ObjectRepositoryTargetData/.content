@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WsQHz3qCcUqBLb_v8tKCNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2e059c1b-8694-4fb1-aab1-224c5967586e" CvElementArea="1258, 916, 901, 141" CvType="InputBox" DesignTimeRectangle="1265, 921, 893, 135" DesignTimeScaleFactor="2.5" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='css-ofj6vf-TextArea-TextArea-TextArea-TextArea-TextArea-TextArea' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="72114fc8-b739-4e04-9110-66d92dd8ea95" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Controls' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2e059c1b-8694-4fb1-aab1-224c5967586e" CvTextArea="1168, 937, 77, 27" CvTextArgument="Title*" CvType="Text" DesignTimeRectangle="1172, 926, 73, 55" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='vv_label' type='' tag='LABEL' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Title*' /&gt;" Guid="15b092d7-de9f-4e74-ba38-d45bd0593d13" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b4ff59962b1738865e1fa902928a3cc5.png" xmlns="">0yKXzIEEkA06VSurOo60P8Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

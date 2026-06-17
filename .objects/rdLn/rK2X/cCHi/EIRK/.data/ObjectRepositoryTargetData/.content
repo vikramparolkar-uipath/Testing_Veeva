@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Qp4oX0CZNEy6ZykWcMz6pQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="b08433b9-e6fc-4f04-be7b-f915d55baffb" CvElementArea="1378, 634, 183, 29" CvType="InputBox" DesignTimeRectangle="1389, 636, 144, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='cc_details__c' tag='INPUT' type='text' class='css-13v5pjb-Input-Input' placeholder='MM/DD/YYYY' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c8a2f242-e937-43b8-96f9-6df521227117" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b08433b9-e6fc-4f04-be7b-f915d55baffb" CvTextArea="1272, 641, 101, 12" CvTextArgument="Current Due Date" CvType="Text" DesignTimeRectangle="1274, 641, 98, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Current Due Date' parentid='cc_details__c' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Current Due Date' /&gt;" Guid="bd816d0c-911f-4d8a-8bdc-2a470f626e28" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3d7f8f5b0070c356b06699e701dcaa16.png" xmlns="">0_CyowDIr0UCF5MA6iHB4xw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

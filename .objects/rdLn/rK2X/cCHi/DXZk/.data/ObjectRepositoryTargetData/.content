@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Jl6WG34EmkuuiA-ac76mWg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="424d2cc4-4ee2-48ce-bba6-32f9ddbc92fb" CvElementArea="1263, 1695, 913, 78" CvType="InputBox" DesignTimeRectangle="1293, 1704, 813, 66" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='css-13v5pjb-Input-Input' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9a9a3cb4-9bd8-4c18-806c-233b8ee442c7" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Controls' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="424d2cc4-4ee2-48ce-bba6-32f9ddbc92fb" CvTextArea="922, 1715, 328, 37" CvTextArgument="Change Classification*" CvType="Text" DesignTimeRectangle="926, 1718, 325, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Change Classification*' parentid='cc_details__c' tag='SPAN' type='' class='' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Change Classification*' /&gt;" Guid="3ec0b9b5-068b-43a4-b43b-cfa6b5ff2e13" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="32f38eece74d9e4e47c6d34d6192ef7c.png" xmlns="">0TNxX35yT6UWb3Kk900EXeQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

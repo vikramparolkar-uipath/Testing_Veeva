@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://staging.uipath.com/uipathlabstestcloud/demos/testmanager_",
+  "defaultProject": {
+    "id": "cfa484ee-7ba3-0000-ce15-0b493690b888",
+    "name": "Veeva",
+    "key": "VEEVA"
+  }
+}

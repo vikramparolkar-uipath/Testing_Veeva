@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bKBO65V4hkiCd5H_R0nnJQ" Reference="tRzMVapDvUC6DW4vd3L6Bw/hBkaysUAgEeXDTviZiUWDQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="f3d37764-793a-4487-ba45-b15c4880179d" CvElementArea="1151, 607, 73, 31" CvTextArea="1160, 616, 54, 14" CvTextArgument="Complete" CvType="Button" DesignTimeRectangle="1153, 609, 69, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ui-id-52' tag='A' /&gt;" Guid="8b0c2c87-7b98-4809-a5db-5f2b2fc3aef1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000003 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b57cec05685e3221fd933408f8a72837.png" xmlns="">0UxfU_yBurU2tyflm4e2dFg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

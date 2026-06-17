@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z-wWELilmEiG-II-x5Rmlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="f3896288-9e4d-401b-9d74-8be4d51e0997" CvType="AnyWordGroup" DesignTimeRectangle="52, 225, 304, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='pageBody' tag='SPAN' type='' class='vv-vof-detail-header-leading-item vv-vof-detail-header-title' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="b9df9500-06cc-4ca8-82dc-9532db1b2780" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000030 - Change Controls' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b9bddd0a1cfc1f0df5e81d2bf7ed98a6.png" xmlns="">0UI1wB8yMxECZ0csKNfhW1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

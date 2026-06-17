@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Password (Bad)",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "81lj04XUYka_zxCVsZ2elA",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/81lj04XUYka_zxCVsZ2elA",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/4_y7LNUfCE6Dela3bAZqrQ",
+  "Created": "2026-01-23T17:19:10.6377642Z",
+  "Updated": "2026-02-06T17:23:52.2406026Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

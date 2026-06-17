@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Create Change Control Screen",
+  "Type": "Screen",
+  "Id": "cCHiuzgT3UeRbPEwwn_DvQ",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/cCHiuzgT3UeRbPEwwn_DvQ",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/rK2Xqe6k7Uy5CPQxoZv7cA",
+  "Created": "2026-01-23T18:03:52.9915612Z",
+  "Updated": "2026-01-23T18:03:58.8219615Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

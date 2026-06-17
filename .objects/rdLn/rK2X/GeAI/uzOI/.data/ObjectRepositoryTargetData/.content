@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rwJJkpoS7kKWGHTvPTy9cg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" DesignTimeRectangle="630, 440, 372, 26" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='search' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='css-13v5pjb-Input-Input' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="08d83f33-b0d5-4439-b488-4c94b4ee256e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CA-000002 - Change Action' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ae7ac6be-77b0-4a3b-9c11-2b06e680f22d" CvTextArea="572, 443, 40, 12" CvTextArgument="Owner" CvType="Text" DesignTimeRectangle="559, 439, 42, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Owner*' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Owner*' tag='LABEL' type='' class='css-nh1hnf-labelCSS' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Owner*' /&gt;" Guid="2b26e1d1-01dd-4fcb-a9a9-403534c553ca" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="7469aa62b62f6cdb6649e643bc00fb2d.png" xmlns="">0zdA1HDBCNkCdY163clnH3w</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

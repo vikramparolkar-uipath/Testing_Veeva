@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-fKXYCn4Sk-nheUCbf-PCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="13d234ee-fbd4-4acb-a9f1-984aef9ee24f" CvElementArea="2153, 1339, 171, 77" CvTextArea="2175, 1360, 125, 30" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="2154, 1338, 172, 78" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="bf680da1-d243-41a7-80de-7a5c81189a67" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recent Change Controls - Change Controls' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ef5a5ed44b12fd73eab02a52aeed1163.png" xmlns="">0rir7VEKHnkS2n0wyAGlzXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Switch user",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "cSzHcZvcskeaLI5vzwwqOw",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/cSzHcZvcskeaLI5vzwwqOw",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/4_y7LNUfCE6Dela3bAZqrQ",
+  "Created": "2026-01-23T17:19:10.9555034Z",
+  "Updated": "2026-01-23T17:19:10.9555034Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

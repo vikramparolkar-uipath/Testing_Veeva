@@ -1,0 +1,265 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_CreateChangeAction" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="TC_CreateChangeAction_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TC_CreateChangeAction" sap:VirtualizedContainerService.HintSize="1021,2468" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Change Control Screen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,2445" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="494522e1-8ed2-4a5d-ac98-81606e9b494c" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2251" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="MaximizeWindow_2" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Change Actions''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="cc5b528e-dc60-4016-bf29-3f4543eb1d4f" ContentHash="TpdfIHOyeUCkg5_ZEsJdvg" CvTextArea="45, 853, 85, 14" CvTextArgument="Change Actions" CvType="Text" DesignTimeRectangle="46, 853, 84, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Change Actions' parentid='pageBody' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Change Actions' parentid='pageBody' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Change Actions' /&gt;" Guid="50f5d1c2-42b9-4ab4-bd8b-50543885699b" InformativeScreenshot="d51ecf8364ea73bc45402e26a2dc7ced.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/N2T_i3Bsrkmk9W5tiU8Yow" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Create''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="a8fcf70a-7576-4a3d-9871-01b741588167" ContentHash="w4zguQTWMEKrklKfM30kjQ" CvElementArea="296, 477, 76, 27" CvType="Button" DesignTimeRectangle="298, 479, 72, 24" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Create' parentid='change_action__c' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Create' parentid='change_action__c' tag='BUTTON' type='button' class='vv-related-record-list-button addNewItem css-1soojas-buttonCSS-buttonCSS-buttonCSS-buttonCSS' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Create' /&gt;" Guid="60b73bc0-85fe-4960-a051-4934c0753344" InformativeScreenshot="80f2ce2704ad6478bb81d320a7283ab2.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/ca2hiUyLxk6hoummC5o4zA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Title''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Text="Random Change Action" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="cad1c33b-2d5f-4906-a1da-da0e0d05475e" ContentHash="_0AwB-12OEiYcFz63CTUtw" CvElementArea="586, 416, 463, 56" CvType="InputBox" DesignTimeRectangle="587, 418, 460, 54" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='css-tpct1p-TextArea-TextArea-TextArea-TextArea-TextArea-TextArea' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fc9db893-6c2a-4d69-b226-fc75d61bf82c" InformativeScreenshot="4cfb7cf0be4d185ef63f683829870b67.png" IsResponsive="True" Reference="tRzMVapDvUC6DW4vd3L6Bw/8NAXiswzuEiLpV7pzfDx3w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Action' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="cad1c33b-2d5f-4906-a1da-da0e0d05475e" CvTextArea="553, 424, 27, 12" CvTextArgument="Title" CvType="Text" DesignTimeRectangle="555, 424, 24, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Title' parentid='details__c' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Title' parentid='details__c' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Title' /&gt;" Guid="56eedaa0-9840-4633-841b-f3a5077efe4c" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Today''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="cad1c33b-2d5f-4906-a1da-da0e0d05475e" ContentHash="2TNnNb6DLUWdv3V_sSk7Ig" CvTextArea="774, 562, 34, 14" CvTextArgument="Today" CvType="Text" DesignTimeRectangle="775, 562, 32, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='css-bpeaoy-linkCSS-DatePicker' parentid='details__c' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='css-bpeaoy-linkCSS-DatePicker' parentid='details__c' tag='A' type='' aaname='Today' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Today' /&gt;" Guid="6857d6aa-f5a7-4622-a19d-d454f3429eeb" InformativeScreenshot="2032e429157f30ae0113011991466ca2.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/a9BaqVnQ00O7Ecpso54NEA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Action' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="cad1c33b-2d5f-4906-a1da-da0e0d05475e" ContentHash="heL4cY_fWkasrp6O6eLBpg" CvElementArea="1840, 225, 66, 31" CvTextArea="1866, 234, 30, 12" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1841, 227, 63, 28" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Save' parentid='pageBody' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Save' parentid='pageBody' tag='BUTTON' type='button' class='vv-vof-detail-header-button css-cxkizh-buttonCSS-buttonCSS-buttonCSS-buttonCSS' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Save' /&gt;" Guid="c19c3abd-594f-4f9a-b632-92b684e7dd90" InformativeScreenshot="f9bb5edb25e7116db4a2d7d3adc0d173.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/Wbq2Si7QiEqR-FEywnu1Lw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Action' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Manage Team''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="ae7ac6be-77b0-4a3b-9c11-2b06e680f22d" ContentHash="XJC9BNGiN0O25xeY9irZeA" CvElementArea="1796, 381, 98, 27" CvTextArea="1806, 388, 77, 14" CvTextArgument="Manage Team" CvType="Button" DesignTimeRectangle="1798, 383, 94, 24" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Manage Team' parentid='quality_team__c' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Manage Team' parentid='quality_team__c' tag='BUTTON' type='button' class='vv-header-button-no-bold css-1soojas-buttonCSS-buttonCSS-buttonCSS-buttonCSS' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Manage Team' /&gt;" Guid="b94922c7-c524-460e-b195-dc69407e0c7d" InformativeScreenshot="0d91b1ae685d729bae5c5de6789bd505.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/SzqE5w7oaUy9KvPfJ8UbRA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CA-000002 - Change Action' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DisplayName="Type Into ''Owner*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Text="Vikram Parolkar" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" ContentHash="rwJJkpoS7kKWGHTvPTy9cg" DesignTimeRectangle="630, 440, 372, 26" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='search' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='css-13v5pjb-Input-Input' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="08d83f33-b0d5-4439-b488-4c94b4ee256e" InformativeScreenshot="7469aa62b62f6cdb6649e643bc00fb2d.png" IsResponsive="True" Reference="tRzMVapDvUC6DW4vd3L6Bw/uzOI3zexQ0-9OsJjX0lH1Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CA-000002 - Change Action' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="ae7ac6be-77b0-4a3b-9c11-2b06e680f22d" CvTextArea="572, 443, 40, 12" CvTextArgument="Owner" CvType="Text" DesignTimeRectangle="559, 439, 42, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Owner*' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Owner*' tag='LABEL' type='' class='css-nh1hnf-labelCSS' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Owner*' /&gt;" Guid="2b26e1d1-01dd-4fcb-a9a9-403534c553ca" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Owner*(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5">
+              <uix:NKeyboardShortcuts.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" ContentHash="rwJJkpoS7kKWGHTvPTy9cg" DesignTimeRectangle="630, 440, 372, 26" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='search' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='css-13v5pjb-Input-Input' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="08d83f33-b0d5-4439-b488-4c94b4ee256e" InformativeScreenshot="7469aa62b62f6cdb6649e643bc00fb2d.png" IsResponsive="True" Reference="tRzMVapDvUC6DW4vd3L6Bw/uzOI3zexQ0-9OsJjX0lH1Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CA-000002 - Change Action' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="ae7ac6be-77b0-4a3b-9c11-2b06e680f22d" CvTextArea="572, 443, 40, 12" CvTextArgument="Owner" CvType="Text" DesignTimeRectangle="559, 439, 42, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Owner*' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Owner*' tag='LABEL' type='' class='css-nh1hnf-labelCSS' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Owner*' /&gt;" Guid="2b26e1d1-01dd-4fcb-a9a9-403534c553ca" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NKeyboardShortcuts.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="7" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="ae7ac6be-77b0-4a3b-9c11-2b06e680f22d" ContentHash="SKTIC7tiw0qshgXki0hxcw" CvElementArea="1796, 381, 98, 27" CvTextArea="1852, 388, 31, 12" CvTextArgument="Team" CvType="Button" DesignTimeRectangle="1838, 387, 45, 16" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Save' parentid='quality_team__c' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Save' parentid='quality_team__c' tag='DIV' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Save' /&gt;" Guid="6bf44782-6d22-4899-ac5e-3fe5ba528bee" InformativeScreenshot="1aa6a30acd9bfe1d075c164287948537.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/X9e6u01kxk66cfv2TWQe6g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CA-000002 - Change Action' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Change Plan created" Expression="True" sap:VirtualizedContainerService.HintSize="416,127" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="3" DisplayName="Click ''Change Controls''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="494522e1-8ed2-4a5d-ac98-81606e9b494c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="35917672-890b-4edd-9776-005d352d125b" ContentHash="NUhgNAQ1oEqh8Lr4xvE7uA" CvTextArea="47, 186, 91, 14" CvTextArgument="Change Controls" CvType="Text" DesignTimeRectangle="48, 186, 90, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='pageBody' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='pageBody' tag='SPAN' type='' class='' aaname='Change Controls' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Change Controls' /&gt;" Guid="41069e7c-2533-4e75-9493-6c86a84f69de" InformativeScreenshot="3a5d3843cc4200a44333786e6ce311bf.png" Reference="tRzMVapDvUC6DW4vd3L6Bw/2-HfQ9x9DUe-3dJ-wk5LtQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset Position="TopRight" X="48" Y="8" />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:MinimizeWindow Window="{x:Null}" DisplayName="Minimize Window" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="MinimizeWindow_1" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, -8, 1936, 1048" BrowserType="Edge" ContentHash="G0zYzslewk2ng79acYz-SQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANtSURBVFhHvVfLThRBFO2oiQsVkaAivhAmfQsm+g0u3OpHGEOMIcTgI1GjwQe+VyRIhq7qAXQD/oA7F/oBujAaNYASogyiojhd3TCUudVdTVNTLcjrJJVU6p57q87pO9U9FnfgWSlPBKcgx6wr5yMTDLZZlmWJQWsjd0hzySWXPGovaSAXczBX1mg/uolTeD2X2GeulwjO4Kk1nc/WBAwKM24YwFHqI8KjcBKTEdyxH4qBJiEeNy5tDDQJzInzKTk+myclVR/3ClwYn3YO7ZYEz7E7MDE+gDwpeSP6j2zB+HRXtsZn5EvykGkDOcjFHKXeo/Birm9ePe7lU7ipDmgVu+29uguiH12wTymOz+Bq8pBpAzketa+pPFRf6iVzyQNyCoU/DGrjAyCMLjjwttCV3Ypx4WZ2cgpjM2GPGEeoHsZ+dzfskjkp6j0KtxZsLskMarnBBe6SZsXxHHJZ9Ke7IIs7cEXxjeoZFHCveOMkjC5QeCcGQxd+5exqTmE0+qUsGNHaqMjZ1ciNOr9cvWN36PvGMLvQiKc+rTicwQWTC7jmU7gY88LOj+Oy8xkUsN/iDU3A55N0ISryXkT3whTNVvkURpLFo/knQbNVyElT77N/qFfA7jS6QO0zisOZ3ZZ0Qc4dci6OG9RzChPFvkXUK5hdsD9MdmYqMC7ydZWcwhCuyxiD4Z+PDu+QsRT1HrVv6/ukQrpATS6QFsXhDrTiWtQjZ+PcHjihqw8oTIilqlfAm6rcBfj4PVe/HePiSaYC3xmcwmeh1tLUO+SOXn9RoAsBg/EyF1xoVZxij91WpOR8IqdcPYOJopPZFxf+H3hmF4Z+5OsqMS46M5txyPlzeeu9LFPPlqFeIdWFxDNX4Ab1PoNvy1avYHQh0fWINPWcwt2F1ZYBkWvcw40ukDbF4YbOR/VipeoVfAY3dBfwNkQXRLu1wai+B+7pdZaNP2kuULuFu/YxXX2Az95t2K/XWRE8zYXou2CYU3iV/KaMOKunXsHkAs6Tr+bo2U+K1Vav4DkLXdCHjDlwX89bNZhc0NV7ufoDet6qwqfkusmF8H2/huoV0IWAka96LwRSfXZt1St4mgvR/IHOWzOEvRC6ECj1tPGgzltTKBfCzp//G7ZuEPlsDX7nBQym1l29At54nEKXvr5uQBdW+r7/Cwe30sPdr6/KAAAAAElFTkSuQmCC" InformativeScreenshot="0859f508bf1c567165a15a32d4c6f4ea.jpg" Reference="tRzMVapDvUC6DW4vd3L6Bw/GeAIgh-o4U2XGnL42Jb5Tg" Selector="&lt;html app='msedge.exe' title='*Change Controls' /&gt;" Url="https://vvtechpartner-uipath-quality01.veevavault.com/ui/?tab-collection=qms__c#t/0TB00000003L001/VII/VII00000000A001?expanded=cc_details__c%2Ccc_impact_assess_req__c%2Cchangeplan__c%2Csystem_details__c%2Cquality_team__c&amp;_layout=gmp_change_control_detail_page_layout__c&amp;_page=responsible_people_tasks_page__c&amp;s=2" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

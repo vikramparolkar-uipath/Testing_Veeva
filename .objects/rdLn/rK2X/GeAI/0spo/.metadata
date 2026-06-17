@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SME",
+  "Type": "Element",
+  "Id": "0spokeTZJEeYcBS3-EK2RA",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/0spokeTZJEeYcBS3-EK2RA",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/GeAIgh-o4U2XGnL42Jb5Tg",
+  "Created": "2026-03-03T03:35:02.8591223Z",
+  "Updated": "2026-03-03T03:35:02.8591223Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

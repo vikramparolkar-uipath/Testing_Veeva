@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Recent Change Controls Screen",
+  "Type": "Screen",
+  "Id": "8wspKW54FkC8939YaE7Fpg",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/8wspKW54FkC8939YaE7Fpg",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/rK2Xqe6k7Uy5CPQxoZv7cA",
+  "Created": "2026-01-23T18:01:02.8233544Z",
+  "Updated": "2026-01-23T18:01:13.5328601Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

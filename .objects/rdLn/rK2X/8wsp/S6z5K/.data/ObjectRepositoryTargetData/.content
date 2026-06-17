@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zkRfd8Gqgk2eO0U9CegewA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="f883e5bc-d772-449f-abec-ff5e5255e35d" CvElementArea="3479, 340, 261, 72" CvType="InputBox" DesignTimeRectangle="3486, 347, 176, 60" DesignTimeScaleFactor="2.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Create (Ctrl + Shift + C)' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Create (Ctrl + Shift + C)' tag='BUTTON' type='button' class='css-f2vqr2-buttonCSS-buttonCSS-buttonCSS-buttonCSS-SplitButton' aaname='Primary Action Button IconCreate' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Create' /&gt;" Guid="749c4249-201a-4ff6-8720-a1ecacc8dfc6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recent Change Controls - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="aff9ec96e9bfa14455434df33dab6bb0.png" xmlns="">0qBtRYXfuxUCDdgDwTfX4Ug</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

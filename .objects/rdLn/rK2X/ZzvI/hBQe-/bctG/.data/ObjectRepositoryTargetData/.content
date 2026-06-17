@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FpCBntBdkkexcaPAx3dnCQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="5df4d813-6d15-4d66-9095-37b131387960" CvElementArea="925, 450, 236, 68" CvTextArea="950, 467, 188, 30" CvTextArgument="Save View As" CvType="Button" DesignTimeRectangle="869, 432, 620, 80" DesignTimeScaleFactor="2.5" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Change Controls' class='vv-navbar-link' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Change Controls' class='vv-navbar-link' tag='A' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Change Controls' /&gt;" Guid="79ff8ad8-a342-473d-b23d-9ef6df6227f6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='All Tasks - Home' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="3356040c95711d90c08cc13e7289f099.png" xmlns="">0ZWww0vaXMEawqrHrLT-UUg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

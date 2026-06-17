@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DvEuWI-YQkaF5vWyRi8-Fg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="fc3e553b-be50-4472-a490-76d09fd46e16" CvElementArea="584, 485, 464, 30" CvType="InputBox" DesignTimeRectangle="1024, 494, 14, 14" DesignTimeScaleFactor="1" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg' parentid='ia_details__c' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='ia_details__c' tag='svg' class='svg-inline--fa fa-caret-down fa-w-10 css-hpjqla-iconCSS-iconCSS-hoverableCSS-hoverableCSS-Input-Input' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b4985986-7a02-43d7-bfdf-588244296e5f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Impact Assessments' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fc3e553b-be50-4472-a490-76d09fd46e16" CvTextArea="546, 493, 34, 14" CvTextArgument="Type*" CvType="Text" DesignTimeRectangle="547, 493, 32, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Type*' parentid='ia_details__c' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Type*' parentid='ia_details__c' tag='SPAN' type='' class='' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Type*' /&gt;" Guid="f2684bd2-e912-49e1-8740-4eb3a7e52b68" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="8f8dabf49821027af5a884f8ef173d24.png" xmlns="">0dCyQkZ5_hEaj0qmiGHDIyQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

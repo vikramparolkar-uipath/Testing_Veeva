@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Change Control Details",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "kuKhpHprzEimEpJ3s4izSw",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/kuKhpHprzEimEpJ3s4izSw",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/NjXDvQgfg0qJxpiE3bmlqg",
+  "Created": "2026-03-03T05:22:48.1399998Z",
+  "Updated": "2026-03-03T05:22:48.1399998Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

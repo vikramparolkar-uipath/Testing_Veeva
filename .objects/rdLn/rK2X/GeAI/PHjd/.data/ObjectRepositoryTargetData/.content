@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l1GETZ8lhEee3ZOPBr7-ag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="287ad7c9-e6f2-4b71-a3a1-670bb721dc9b" CvElementArea="579, 393, 1282, 162" CvType="InputBox" DesignTimeRectangle="588, 436, 1267, 85" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='assessment_summary__c' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='fr-element fr-view' parentid='assessment_summary__c' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d04c70b4-601a-41f4-81fd-424a46642fe8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="287ad7c9-e6f2-4b71-a3a1-670bb721dc9b" CvTextArea="448, 402, 132, 14" CvTextArgument="Assessment Summary" CvType="Text" DesignTimeRectangle="450, 402, 129, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Assessment Summary' parentid='assessment_summary__c' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assessment Summary' parentid='assessment_summary__c' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Assessment Summary' /&gt;" Guid="ad2d0744-3708-4375-a69d-de602e0587c2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="40adf07cc07e391eabe79417d30c6cdd.png" xmlns="">0Kc-DJpP_T0Kd_GRD-MBz9Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

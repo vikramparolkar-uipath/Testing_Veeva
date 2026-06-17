@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_0AwB-12OEiYcFz63CTUtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="cad1c33b-2d5f-4906-a1da-da0e0d05475e" CvElementArea="586, 416, 463, 56" CvType="InputBox" DesignTimeRectangle="587, 418, 460, 54" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='css-tpct1p-TextArea-TextArea-TextArea-TextArea-TextArea-TextArea' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fc9db893-6c2a-4d69-b226-fc75d61bf82c" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Action' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cad1c33b-2d5f-4906-a1da-da0e0d05475e" CvTextArea="553, 424, 27, 12" CvTextArgument="Title" CvType="Text" DesignTimeRectangle="555, 424, 24, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Title' parentid='details__c' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Title' parentid='details__c' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Title' /&gt;" Guid="56eedaa0-9840-4633-841b-f3a5077efe4c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4cfb7cf0be4d185ef63f683829870b67.png" xmlns="">0OzhscmutKkefcPI2Y78b6g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Team",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "gwz_s4l7V0WtwCgkyfBdtA",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/gwz_s4l7V0WtwCgkyfBdtA",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/Ud2GFxzLlEGqMY-QcQsAEw",
+  "Created": "2026-03-03T05:34:12.3470597Z",
+  "Updated": "2026-03-03T05:34:12.3470597Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Change Actions",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "TwhqGwWrKkyERWn77wNfOA",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/TwhqGwWrKkyERWn77wNfOA",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/Ud2GFxzLlEGqMY-QcQsAEw",
+  "Created": "2026-03-03T05:53:47.4810793Z",
+  "Updated": "2026-03-03T05:53:47.4810793Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

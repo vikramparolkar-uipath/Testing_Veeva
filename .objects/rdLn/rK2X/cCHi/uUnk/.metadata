@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Type*",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "uUnkb-Gt5EOTIexFDtgrwQ",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/uUnkb-Gt5EOTIexFDtgrwQ",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/cCHiuzgT3UeRbPEwwn_DvQ",
+  "Created": "2026-01-23T18:04:30.1620143Z",
+  "Updated": "2026-01-23T18:04:30.1620143Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

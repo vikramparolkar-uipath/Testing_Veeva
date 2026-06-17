@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RHqWR2HVQkGWRHKXv4_u1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.veevavault.com/auth/login" CVScreenId="148c4fa2-0015-4ebe-847f-61927d2cc509" CvElementArea="1207, 1273, 1424, 143" CvType="InputBox" DesignTimeRectangle="1308, 1281, 1299, 132" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='j_password' tag='INPUT' /&gt;" Guid="a9f0085d-4a41-47ed-9422-4e481320a6a8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3d1fe1444537cb3dded838b7e92112de.png" xmlns="">0LLnjrjK7AU-bTWyrZtnVkw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

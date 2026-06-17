@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Owning Facility*",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "_NBroc8yUUm6DTIJTcZ59w",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/_NBroc8yUUm6DTIJTcZ59w",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/cCHiuzgT3UeRbPEwwn_DvQ",
+  "Created": "2026-01-23T18:04:30.2679736Z",
+  "Updated": "2026-01-23T18:04:30.2679736Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

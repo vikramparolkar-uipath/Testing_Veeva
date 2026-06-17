@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Change Classification*",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "DXZk6hju8kC0e_VAprIYPA",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/DXZk6hju8kC0e_VAprIYPA",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/cCHiuzgT3UeRbPEwwn_DvQ",
+  "Created": "2026-01-23T18:04:30.5414615Z",
+  "Updated": "2026-01-23T18:04:30.5414615Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

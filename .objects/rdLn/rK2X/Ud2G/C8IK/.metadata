@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Impact Assessments",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "C8IKUuYRFkmQtwU9XUKyRw",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/C8IKUuYRFkmQtwU9XUKyRw",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/Ud2GFxzLlEGqMY-QcQsAEw",
+  "Created": "2026-03-03T05:37:32.8837393Z",
+  "Updated": "2026-03-03T05:37:32.8837393Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

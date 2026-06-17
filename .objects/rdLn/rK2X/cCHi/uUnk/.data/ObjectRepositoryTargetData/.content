@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gFi3Jz1XJkWIsEFOymuFfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="d116380f-e743-423c-ae43-4089058e0ae8" CvElementArea="2766, 810, 910, 78" CvType="InputBox" DesignTimeRectangle="2796, 819, 813, 66" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl class='css-13v5pjb-Input-Input' tag='INPUT' type='search' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="dce8c5dd-06a8-4590-a4e7-f09077f54647" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Controls' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d116380f-e743-423c-ae43-4089058e0ae8" CvTextArea="2670, 832, 82, 35" CvTextArgument="Type*" CvType="Text" DesignTimeRectangle="2675, 833, 79, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Type*' parentid='cc_details__c' tag='SPAN' type='' class='' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Type*' /&gt;" Guid="41ae9565-66db-4024-97d1-caf7ac8cbd28" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6f3b78d432773f870b0472870305dc6c.png" xmlns="">0PeK6_jjyskWi5Ga2NJvx1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

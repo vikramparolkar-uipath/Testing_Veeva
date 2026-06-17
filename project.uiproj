@@ -1,0 +1,6 @@
+{
+  "Name": "Testing_Veeva_Windows",
+  "ProjectType": "Tests",
+  "Description": "UiPath Test Cloud demo project for application testing of Veeva vault. This project has Windows dependencies.\r\n",
+  "MainFile": "Main.xaml"
+}

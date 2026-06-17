@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Reasoning (Bad Selector) - HealingAgent Backup - HealingAgent Backup",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "0JThSGeM_kqLxYRHbtaAIQ",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/0JThSGeM_kqLxYRHbtaAIQ",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/cCHiuzgT3UeRbPEwwn_DvQ",
+  "Created": "2026-01-28T20:35:12.3090671Z",
+  "Updated": "2026-01-28T20:35:12.3090671Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

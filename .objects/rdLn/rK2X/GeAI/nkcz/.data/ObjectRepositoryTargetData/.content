@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ixVWlXmQq0CH_MpqfARhlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="8ec83c1a-5eed-4041-ad05-955d9d66e944" DesignTimeRectangle="729, 585, 13, 13" DesignTimeScaleFactor="1" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='radio' class='required' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="642eae8f-8098-4829-8bb9-e1c20f4ae9d9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8ec83c1a-5eed-4041-ad05-955d9d66e944" CvElementArea="727, 583, 17, 17" CvTextArea="744, 587, 56, 14" CvTextArgument="Complete" CvType="RadioButton" DesignTimeRectangle="724, 582, 488, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl class='vv_radio_label' parentid='plSection_0' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl class='vv_radio_label' parentid='plSection_0' tag='LABEL' type='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Complete' /&gt;" Guid="0b7ef1d8-6e3a-45c5-82be-bff0aa76ee08" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="3d89d8925faf36e9b7aa3a3eb3c2c2da.png" xmlns="">0bm3PXjy130qKaW57WXgGxg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

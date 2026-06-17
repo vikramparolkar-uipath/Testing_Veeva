@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LtEA5LXOaEGZYcsIfZIMyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="1e920336-4433-4755-a73d-cd2981d285b6" CvTextArea="110, 985, 442, 35" CvTextArgument="Impact Assessment Requirement" CvType="Text" DesignTimeRectangle="111, 987, 440, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Impact Assessment Requirement' parentid='pageBody' tag='SPAN' /&gt;" Guid="2c0a693f-00ec-476c-94d1-68304414b3f2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3e891e4ef5ea3b890cbeec8d3f6ed8cd.png" xmlns="">0x8ZE-m7QBUiPpd9vRS6g8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

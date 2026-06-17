@@ -1,0 +1,124 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Semantic.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="1169,809.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Workday Home Page - Logged in cjones" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,482" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="ff95c155-2cd1-4f04-9096-37c7d3497a08" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,288" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NUITask DisplayName="ScreenPlay" sap:VirtualizedContainerService.HintSize="416,224" sap2010:WorkflowViewState.IdRef="NUITask_1" ScopeIdentifier="ff95c155-2cd1-4f04-9096-37c7d3497a08" Version="V5">
+              <uix:NUITask.Prompt>
+                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                  <InArgument x:TypeArguments="x:String">Request an absence in workday. Select March 3rd and submit request for parental leave.</InArgument>
+                </scg:List>
+              </uix:NUITask.Prompt>
+            </uix:NUITask>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-16, -16, 3872, 2312" BrowserType="Edge" ContentHash="oUush2yHv021wOHMj5RhCQ" IconBase64="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" InformativeScreenshot="02eb9c5ed843adc1e57f498eee03a25b.jpg" Reference="tRzMVapDvUC6DW4vd3L6Bw/-WCyL7yE7U6EA1zyJU5RjA" Selector="&lt;html app='msedge.exe' title='Home - Workday' /&gt;" Url="https://impl.workday.com/uipath_dpt1/d/home.htmld" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Veeva Vault",
+  "Type": "App",
+  "Id": "rdLn0O7R4UKPNEH1TSMbpg",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/rdLn0O7R4UKPNEH1TSMbpg",
+  "Created": "2025-04-16T15:30:07.2031473Z",
+  "Updated": "2025-04-16T15:30:07.2031473Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

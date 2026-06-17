@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9sTR52Ely0-NCuYDkREu2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" DesignTimeRectangle="1271, 1530, 902, 135" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl name='justification__v' tag='TEXTAREA' type='' class='css-ofj6vf-TextArea-TextArea-TextArea-TextArea-TextArea-TextArea' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="4085a068-b71c-4a1f-a2e9-6418c0833669" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Controls' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1063, 1535, 188, 55" FullSelectorArgument="&lt;webctrl class='vv_label' idx='4' tag='LABEL' /&gt;" Guid="f29faf2e-b84e-41e6-a92c-b99f5c1068ae" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1f7ebe65a14008ca4745c75d081a8608.png" xmlns="">0s-nugkI-PUO7QDUQpE679g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

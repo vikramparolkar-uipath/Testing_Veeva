@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FDpn9yZ__0mhjyE2BGKPVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="80d71516-a331-49f0-8f64-8732ce19cf76" CvTextArea="44, 521, 123, 14" CvTextArgument="Assessment Summary" CvType="Text" DesignTimeRectangle="46, 521, 120, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Assessment Summary' parentid='pageBody' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assessment Summary' parentid='pageBody' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Assessment Summary' /&gt;" Guid="1dd34376-54a6-4b9a-814d-45ca937e2450" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="6c39e0b8a7949b75eb673a743697bd27.png" xmlns="">0VECEMRY2iUWQrh_efb8Qwg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

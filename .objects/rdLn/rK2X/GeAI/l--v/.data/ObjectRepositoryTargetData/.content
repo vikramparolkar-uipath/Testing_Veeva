@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ixPh3PO10USGatp_2_a8Bw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="eafff344-916c-4539-a2fd-fce1c448d039" CvElementArea="584, 662, 465, 57" CvType="InputBox" DesignTimeRectangle="587, 663, 460, 54" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='plan_summary__v' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl name='plan_summary__v' tag='TEXTAREA' type='' class='css-7ecjri-TextArea-TextArea-TextArea-TextArea' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f8f74b87-5fe1-40cc-992c-36acee52383f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="eafff344-916c-4539-a2fd-fce1c448d039" CvTextArea="495, 669, 85, 14" CvTextArgument="Plan Summary" CvType="Text" DesignTimeRectangle="496, 669, 83, 14" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Plan Summary' parentid='changeplan__c' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Plan Summary' parentid='changeplan__c' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Plan Summary' /&gt;" Guid="e472a8c3-dc1d-4a66-b73d-df94f33bbe62" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="815c0d38e9299e833767ce4d73df841b.png" xmlns="">0Q2iZja7gyUiF-h4fZwxOoQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

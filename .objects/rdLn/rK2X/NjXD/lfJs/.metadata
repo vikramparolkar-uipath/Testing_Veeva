@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Quality Events",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lfJsPXRb1ECxBYDV5o1YJg",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/lfJsPXRb1ECxBYDV5o1YJg",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/NjXDvQgfg0qJxpiE3bmlqg",
+  "Created": "2026-03-03T05:21:09.3529736Z",
+  "Updated": "2026-03-03T05:21:09.3529736Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

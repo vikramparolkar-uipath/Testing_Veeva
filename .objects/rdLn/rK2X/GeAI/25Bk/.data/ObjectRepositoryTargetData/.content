@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7fmviMlPQEet_PVq8YP1Fw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="8defca97-d361-4d61-a056-762351e1304f" CvTextArea="774, 917, 34, 14" CvTextArgument="Today" CvType="Text" DesignTimeRectangle="775, 917, 32, 14" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='css-bpeaoy-linkCSS-DatePicker' parentid='changeplan__c' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='css-bpeaoy-linkCSS-DatePicker' parentid='changeplan__c' tag='A' type='' aaname='Today' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Today' /&gt;" Guid="504f077f-f8a8-428f-b8e9-e6ba0153b308" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="334f1f2e8c2ea5517b29050ca414f3e6.png" xmlns="">0eQa0kIfiyU2zws0JVZeQFA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

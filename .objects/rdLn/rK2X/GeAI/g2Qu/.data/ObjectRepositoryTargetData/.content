@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1wDaeID2s0mfj-y_KxN2Vg" Reference="tRzMVapDvUC6DW4vd3L6Bw/QHeJNvBASkm44N78P1w-QA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="2e5c82e4-3d5c-4b9b-a61a-67a06bb24584" CvElementArea="1796, 370, 98, 28" CvTextArea="1806, 378, 77, 14" CvTextArgument="Manage Team" CvType="Button" DesignTimeRectangle="1798, 373, 94, 24" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Manage Team' parentid='quality_team__c' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Manage Team' parentid='quality_team__c' tag='BUTTON' type='button' class='vv-header-button-no-bold css-1soojas-buttonCSS-buttonCSS-buttonCSS-buttonCSS' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Manage Team' /&gt;" Guid="6b5c37c9-33a0-4150-9b19-0ce8b0e1d652" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d85c72dc34c6d73a4beb1099f496610b.png" xmlns="">05a7U9ZZB1ESAbNo0y3hKIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

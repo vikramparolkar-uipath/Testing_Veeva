@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Current Due Date",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "683rpAdbS0Ovl_e7MTxOEQ",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/683rpAdbS0Ovl_e7MTxOEQ",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/cCHiuzgT3UeRbPEwwn_DvQ",
+  "Created": "2026-01-23T18:04:30.4286994Z",
+  "Updated": "2026-01-23T18:04:30.4286994Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

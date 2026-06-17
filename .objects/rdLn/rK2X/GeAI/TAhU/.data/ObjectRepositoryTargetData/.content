@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uOScSix8DEGCi597cQKgbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="038576c4-524b-4daf-8d9b-84d26173d670" CvElementArea="1151, 712, 73, 32" CvTextArea="1160, 721, 54, 14" CvTextArgument="Complete" CvType="Button" DesignTimeRectangle="1162, 714, 51, 28" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='vv_button_text' parentid='ui-id-112' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='vv_button_text' parentid='ui-id-112' tag='SPAN' type='' aaname='Complete' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Complete' /&gt;" Guid="08bb56c3-4e95-45e8-be59-cf33adc0b9cb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="9f6356f5600675ce51baa759e37259d3.png" xmlns="">0VBs22FtCXEGpYe5Uubxw0Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

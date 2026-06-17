@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UmgYqCtAJU2S3FYIIYN9dA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="a7fcd18f-bc56-4c7b-b5b0-7c790aa17a6b" CvElementArea="1479, 1176, 844, 72" CvType="InputBox" DesignTimeRectangle="1482, 1181, 840, 65" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' parentid='ui-id-23' tag='DIV' class='multiItemSelectContainer vv_single_item vv_required_value_select_field' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="63e70cc0-31c3-48b2-b7b4-d9a404c21170" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recent Change Controls - Change Controls' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a7fcd18f-bc56-4c7b-b5b0-7c790aa17a6b" CvTextArea="1478, 1145, 385, 35" CvTextArgument="Select Change Control Type." CvType="Text" DesignTimeRectangle="1482, 1143, 840, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='paramFieldLabel' parentid='ui-id-23' tag='DIV' type='' aaname='Select Change Control Type.' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select Change Control Type.' /&gt;" Guid="860432cd-c497-425f-98d8-b309c8999cd3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cdbd6ce48f4a24e3a8a31a08d58f29d5.png" xmlns="">00MWbZIkBA02OPaL7fqhAoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

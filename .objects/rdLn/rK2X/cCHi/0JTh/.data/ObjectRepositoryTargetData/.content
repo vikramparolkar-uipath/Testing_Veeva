@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7ArDaJdzkkaPAC2hppVqrw" Reference="tRzMVapDvUC6DW4vd3L6Bw/RPrOeHPMukO7ydN6k-aOVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2e059c1b-8694-4fb1-aab1-224c5967586e" CvElementArea="1256, 1526, 905, 141" CvType="InputBox" DesignTimeRectangle="1271, 1530, 902, 135" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl name='reasoning__v' tag='TEXTAREA' type='' class='css-ofj6vf-TextArea-TextArea-TextArea-TextArea-TextArea-TextArea' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="cd77ed74-aa7c-40b4-9764-8807fe818278" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Controls' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2e059c1b-8694-4fb1-aab1-224c5967586e" CvTextArea="1053, 1545, 192, 30" CvTextArgument="Reasoning*" CvType="Text" DesignTimeRectangle="1058, 1546, 192, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='vv_label' matching:class='fuzzy' fuzzylevel:class='0.0' type='' tag='LABEL' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Reasoning*' /&gt;" Guid="255b4da1-7c47-43cc-b089-14bab878be92" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="890ec230ee3d5f18340db50e3576489b.png" xmlns="">0rrFM5GXB_0WIKyefIl6lXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

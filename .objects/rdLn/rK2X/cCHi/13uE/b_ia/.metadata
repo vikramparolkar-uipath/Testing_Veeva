@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Impact Assessment Required (Yes)",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "b_iahZEQeEO_-shn9j_uvg",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/b_iahZEQeEO_-shn9j_uvg",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/13uEUIyECESMEbrQqp4yXw",
+  "Created": "2026-01-27T15:09:45.0834443Z",
+  "Updated": "2026-03-03T03:44:19.2604777Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

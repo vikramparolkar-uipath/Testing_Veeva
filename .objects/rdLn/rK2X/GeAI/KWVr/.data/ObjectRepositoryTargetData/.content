@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WVuvtEHLi0K7sEpTIap1ig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="4b4a0023-db1e-4e27-9b6a-efda2667347b" CvElementArea="722, 778, 157, 29" CvType="InputBox" DesignTimeRectangle="724, 780, 153, 26" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='change_control__v.due_date__v___VERDICT_verdict_complete__c' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='change_control__v.due_date__v___VERDICT_verdict_complete__c' tag='INPUT' type='text' class='vv_block_label vofDateField date required vv_form_MD hasDatepicker' aaname='                                 Current Due Date*                                                              ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="a8834532-b77c-4c24-b451-1b833b0f5f09" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CC-000026 - Change Controls' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4b4a0023-db1e-4e27-9b6a-efda2667347b" CvTextArea="723, 761, 105, 12" CvTextArgument="Current Due Date*" CvType="Text" DesignTimeRectangle="724, 759, 488, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                                                                               ' idx='2' parentid='plSection_0' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                                                                               ' type='' parentid='plSection_0' tag='LABEL' class='vv_label ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Current Due Date*' /&gt;" Guid="37bdba83-83bb-4850-ac3a-024b50d621db" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="ad8beba7dc06363d9d05320e80917a93.png" xmlns="">07jrqdqv-fEa00ZJZ_o55aA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

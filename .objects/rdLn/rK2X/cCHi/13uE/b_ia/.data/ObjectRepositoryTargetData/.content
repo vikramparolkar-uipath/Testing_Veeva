@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="o4RSS_WD2EybgJDykeDuww" Reference="tRzMVapDvUC6DW4vd3L6Bw/b_iahZEQeEO_-shn9j_uvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="f2f86600-d039-4627-80ba-0ca2ea385e9e" CvElementArea="584, 338, 21, 21" CvTextArea="606, 341, 21, 12" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="587, 336, 44, 23" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='radio' /&gt;" Guid="38a9108c-9df9-46d5-8276-53b8721763f3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Create - Change Controls' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f2f86600-d039-4627-80ba-0ca2ea385e9e" CvTextArea="399, 341, 180, 14" CvTextArgument="Impact Assessment Required?*" CvType="Text" DesignTimeRectangle="400, 341, 179, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Impact Assessment Required?*' parentid='cc_impact_assess_req__c' tag='SPAN' type='' class='' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Impact Assessment Required?*' /&gt;" Guid="c316bfcb-757e-48a4-bc99-428ae06281f6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1c7478eb831b110d0b26e97df95815c6.png" xmlns="">05-4MzZIQY0qqAmE5pl5bOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

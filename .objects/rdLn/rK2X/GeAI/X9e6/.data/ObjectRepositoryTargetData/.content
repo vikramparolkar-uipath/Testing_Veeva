@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SKTIC7tiw0qshgXki0hxcw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="ae7ac6be-77b0-4a3b-9c11-2b06e680f22d" CvElementArea="1796, 381, 98, 27" CvTextArea="1852, 388, 31, 12" CvTextArgument="Team" CvType="Button" DesignTimeRectangle="1838, 387, 45, 16" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Save' parentid='quality_team__c' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Save' parentid='quality_team__c' tag='DIV' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Save' /&gt;" Guid="6bf44782-6d22-4899-ac5e-3fe5ba528bee" ScopeSelectorArgument="&lt;html app='msedge.exe' title='CA-000002 - Change Action' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1aa6a30acd9bfe1d075c164287948537.png" xmlns="">0NRyeVwzGZUKI0RHFi3DSJg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

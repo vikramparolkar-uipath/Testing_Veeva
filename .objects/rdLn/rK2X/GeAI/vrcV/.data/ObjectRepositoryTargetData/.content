@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rm9tKx7cbEWkHRFTazO5yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="80d71516-a331-49f0-8f64-8732ce19cf76" CvElementArea="1832, 228, 25, 25" CvType="Icon" DesignTimeRectangle="1836, 232, 18, 18" DesignTimeScaleFactor="1" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg&amp;gt;path' parentid='pageBody' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='pageBody' tag='path' class='' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d1ed00c5-d70f-40d4-b792-e6db1d7b8858" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADqSURBVEhLtdSBDYMgEIVhF3EQF2EQB3EQB3ERB6H5TZ45DlCh+hKD0vr1PKhD/CiDn3gr3fCyLHGapjjPc9z33X/cB4cQ4jiOBwrOsW1b8p1mWOi6rsc11ZbwJlgoo41wO/8YFgrASI9t1BblEWwfn+o4tzjz/sduYd9TKhOsBSy15xKuodpiaotHSRUWqpW2KNHjl1BShP9FSQbbza8WtKIkgf2W8jfzBKX5Uk5YldiF0qYHbEFJBuuFwrXtbQtKTlg3+9TacpcEBtG/h8o570HJCasyjTp6UJJVDESlHP4d25JsH7+Vz+Af46qDCDf+Co4AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IA-000002 - Impact Assessments' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2760b94272557c383b668e24d4b3be5f.png" xmlns="">0JwWsoMaFvEKfeUkjk8cbwA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

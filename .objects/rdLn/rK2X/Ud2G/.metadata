@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Change Controls",
+  "Type": "Screen",
+  "Id": "Ud2GFxzLlEGqMY-QcQsAEw",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/Ud2GFxzLlEGqMY-QcQsAEw",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/rK2Xqe6k7Uy5CPQxoZv7cA",
+  "Created": "2026-03-03T05:33:58.0353142Z",
+  "Updated": "2026-03-03T05:33:58.0353142Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

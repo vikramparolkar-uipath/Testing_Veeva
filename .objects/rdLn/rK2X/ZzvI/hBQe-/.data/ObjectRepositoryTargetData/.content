@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e_A2I-usKk2IBLndCq2PKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="vvtechpartner-uipath-quality01.veevavault.com/ui" CVScreenId="5df4d813-6d15-4d66-9095-37b131387960" CvElementArea="1130, 356, 42, 43" CvTextArea="895, 360, 230, 40" CvTextArgument="Quality Events" CvType="ArrowButton" DesignTimeRectangle="869, 332, 331, 90" DesignTimeScaleFactor="2.5" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Quality Events' class='vv-navbar-link' parentid='global-header' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Quality Events' class='vv-navbar-link' parentid='global-header' tag='A' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Quality Events' /&gt;" Guid="86c79543-bf46-4392-bf1d-49f0c8d13d19" ScopeSelectorArgument="&lt;html app='msedge.exe' title='All Tasks - Home' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4d3939bd3dca0af269882aec2d52b1e6.png" xmlns="">0ouMarcBZHUu5vsKC7m9tDw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

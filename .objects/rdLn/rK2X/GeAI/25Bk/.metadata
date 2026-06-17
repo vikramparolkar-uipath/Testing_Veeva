@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Today",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "25BkMi3rg0-kX8p_eF048Q",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/25BkMi3rg0-kX8p_eF048Q",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/GeAIgh-o4U2XGnL42Jb5Tg",
+  "Created": "2026-03-03T04:03:18.105679Z",
+  "Updated": "2026-03-03T04:03:18.105679Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

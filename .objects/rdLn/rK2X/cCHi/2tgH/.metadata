@@ -1,0 +1,14 @@
+﻿{
+  "Name": "GMP Change Control CC-…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "2tgHuF2ynEOy64wLc6TLww",
+  "Reference": "tRzMVapDvUC6DW4vd3L6Bw/2tgHuF2ynEOy64wLc6TLww",
+  "ParentRef": "tRzMVapDvUC6DW4vd3L6Bw/cCHiuzgT3UeRbPEwwn_DvQ",
+  "Created": "2026-03-03T05:18:02.2331092Z",
+  "Updated": "2026-03-03T05:18:02.2331092Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.25.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
